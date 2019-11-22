@@ -39,13 +39,14 @@ io.on('connection', (socket) => {
         let userName = randomColor + " " + randomAnimal;
         console.log(createdAt + ": " + userName);
         socket.username = userName;
+        socket.randomColorHex = randomColorHex;
         socket.emit('username', { randomColor: randomColor, randomColorHex: randomColorHex, randomAnimal: randomAnimal, userName: userName, createdAt: createdAt });
         io.emit('users-changed', { user: userName, event: 'joined' });
     });
 
     socket.on('send-message', (message) => {
         console.log(socket.username + ": " + message.text);
-        io.emit('message', { msg: message.text, user: socket.username, createdAt: new Date() });
+        io.emit('message', { msg: message.text, user: socket.username, color: socket.randomColorHex, createdAt: new Date() });
     });
 });
 
