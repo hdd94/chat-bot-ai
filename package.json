@@ -1,23 +1,23 @@
 {
-  "name": "socketserver",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "moment": "^2.24.0",
-    "mongodb": "^3.3.4",
-    "socket.io": "^2.3.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/hdd94/socketserverai.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/hdd94/socketserverai#readme"
+    "name": "socketserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "moment": "^2.24.0",
+        "mongodb": "^3.3.4",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/hdd94/socketserverai.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/hdd94/socketserverai#readme"
 }

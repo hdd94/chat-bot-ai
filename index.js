@@ -51,7 +51,7 @@ io.on('connection', (socket) => {
 });
 
 // Express Server
-var port = process.env.PORT || 3002;
+var port = process.env.PORT || 3001;
 
 server.listen(port, function() {
     console.log('listening in http://localhost:' + port);
