@@ -1,13 +1,13 @@
-Blauer, #1273de
-Roter, #f44336
-Grüner, #689f38
-Rosaner, #f06292
-Schwarzer, #000000
-Violetter, #9575cd
-Gelber, #ffeb3b
-Weißer, #ffffff
-Brauner, #795548
-Goldener, #ffc107
-Orangener, #ff9800
-Grauer, #90a4ae
-Silberner, #cfd8dc
+Blauer
+Roter
+Grüner
+Rosaner
+Schwarzer
+Violetter
+Gelber
+Weißer
+Brauner
+Goldener
+Orangener
+Grauer
+Silberner
