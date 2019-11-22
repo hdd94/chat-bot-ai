@@ -1,6 +1,7 @@
 let app = require('express')();
 let server = require('http').createServer(app);
 let io = require('socket.io')(server);
+let python = require('python-shell').PythonShell;
 
 let fs = require("fs");
 let mongo = require('mongodb');
@@ -15,10 +16,22 @@ let textArrayColors = textColors.split("\n");
 var textColorsHex = fs.readFileSync("./colors-hex.txt").toString('utf-8');
 let textArrayColorsHex = textColorsHex.split("\n");
 
+var options = {
+    scriptPath: 'Python/',
+}
+const path = './db.sqlite3';
+
+console.log("Learning DB exists: " + fs.existsSync(path))
+if (!fs.existsSync(path))
+    python.run('init.py', options, function (err, results) {
+        if (err) throw err;
+        console.log(results);
+    });
+    
 // Socket Stuff
 io.on('connection', (socket) => {
 
-    socket.on('disconnect', function() {
+    socket.on('disconnect', function () {
         io.emit('users-changed', { user: socket.username, event: 'left' });
     });
 
@@ -44,14 +57,23 @@ io.on('connection', (socket) => {
     });
 
     socket.on('send-message', (message) => {
+        var options = {
+            scriptPath: 'Python/',
+            args: [message.text]
+        }
         console.log(socket.username + ": " + message.text);
-        io.emit('message', { msg: message.text, user: socket.username, color: socket.randomColorHex, createdAt: new Date() });
+        io.emit('message', { msg: message.text, user: message.user, color: message.color, createdAt: new Date() });
+        python.run('chat.py', options, function (err, results) {
+            if (err) throw err;
+            console.log(results[0]);
+            io.emit('message', {msg: results[0], user: "Robotini", color: "#FFFFFF", createdAt: new Date()});
+        });
     });
 });
 
 // Express Server
 var port = process.env.PORT || 3001;
 
-server.listen(port, function() {
+server.listen(port, function () {
     console.log('listening in http://localhost:' + port);
 });
