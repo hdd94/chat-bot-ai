@@ -17,6 +17,7 @@ var textColorsHex = fs.readFileSync("./colors-hex.txt").toString('utf-8');
 let textArrayColorsHex = textColorsHex.split("\n");
 
 var options = {
+    path: "virtualenv/lib/python3.7",
     scriptPath: 'Python/',
 }
 const path = './db.sqlite3';
@@ -58,6 +59,7 @@ io.on('connection', (socket) => {
 
     socket.on('send-message', (message) => {
         var options = {
+            path: "virtualenv/lib/python3.7",
             scriptPath: 'Python/',
             args: [message.text]
         }
