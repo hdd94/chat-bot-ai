@@ -1,0 +1,775 @@
+ ‎Nachrichten in diesem Chat sowie Anrufe sind jetzt mit Ende-zu-Ende-Verschlüsselung geschützt.	
+" Dein zweites Standbein ;)"	
+ Standbein? 😂😂	
+ Was meinst du damit?	
+ Ja falls das mit der it nichts wird	
+ Dann studiere ich Medizin? 😳	
+ 🤣🤣	
+" Nee leihst dir mal die Urkunde ;)"	
+ Hahaha	
+ Schlaue Idee 🤔	
+ Ich weiß aber nicht, wie viel Aufwand ich bräuchte, um den Namen auszutauschen. 😂😂	
+" Kriegste hin ;)"	
+ OK. Ich versuchs ggf.	
+ Gibt’s auch Bilder von dir ohne Hände in den Taschen 😅	
+ Aber sieht chillig aus wo biste ?	
+ Hahaha. Ja gibt's. Aber ist generell mein Styl	
+ Danke.	
+ Bin in Milan Italien	
+ Haha alles klar	
+ Geil viel Spaß 💪	
+ Danke 😄	
+ https	//itnext.io/offline-ocr-with-tesseractjs-and-ionic-5054fc7eef86
+" Falls du nichts zutun hast ;)"	
+ Cool	
+ Ich schaue mir das an	
+" Ok also bist du dann nach der Vorlesung fertig mit der App ;)"	
+ Wäre schön..	
+ Ich jedoch erstmal meine Systemumgebung einrichten und das mach ich jetzt nicht. lol	
+ Haha wieeeee am besten noch aufm Unternehmensrechner 😂	
+" Ne schon logisch ;)"	
+ hahaha	
+ Auf dem unternehmensrechner arbeite ich auf einem mega geschützte VM	
+ Da kann ich kein privates Zeug machen.	
+ Das war ja auch ein Witz	
+ Alle private Dinge mache ich nur bei mir zu Hause	
+ Ja richtig so 😛	
+ Ja ich weiß.	
+	
+ Achso 😅 ja gut dann war das nicht so Save	
+ Ja, Die Firma war auch ein reine IT Beratung und hatten nicht so viele Datenschutz Dinge oder Vatraulichkeitsgeschichte	
+ Ja wenn man keine vertrauenswürdigen Sachen hat gehts	
+ Genau	
+ Jo Robin	
+ Ich merke jetzt, dass ich schon ein Account hatte	
+ funkykells1@gmail.com	
+ Lösche mal die andere Email und benutz diese	
+ Hab	
+ Geht ?	
+ Ich schue mal	
+ 👌	
+ Ich habs	
+ Top	
+ Kannst du es auch laufen lassen ?	
+ Bin gerade dabei, erstmal npm i laufen zu lassen	
+" Ja das brauchst auch ;)"	
+ Die Frage ist wie kriegen wir das result jetzt wieder ins Fenster 😅	
+ Das geht Easy	
+ Wenn ich das ganze zum Laufen bei mir bringenm dann schaue ich mir das an	
+ Ich erstelle ein develop branch gel	
+ Jaja mach mal 👌	
+ Darauf arbeite ich	
+ Alles klar 	)
+ Jo	
+ Hol dir jetzt den develop branch, run nochmal npm i und schaus dir an	
+ Kamera geht	
+ niceee	
+ Aber das ausgangsformat ist falsch für tesseract da muss ich jetzt gucke😅	
+ Format für was?	
+ Ja du musst ja ein Bild übergeben an tesseract	
+ Und die Kamera gibt nur imagedata wieder	
+" const image = new Image();"	
+	
+ Versucht mal des	
+ Schick mir bitte diese Seite, wo die Format-Spezifikation von Tessaract geschrieben ist	
+ https	//github.com/naptha/tesseract.js?files=1#imagelike
+ https	//devdactic.com/ionic-4-image-upload-storage/
+ App geht wieder mit debuger 👌	
+ Hahaha	
+ Nice	
+" Ja ist doch die perfekte Vorlesung dafür ;)"	
+ Ja man	
+ Hast du es jetzt eigentlich aufs device bekommen?	
+ Nee	
+ Mein letzter Stand war der Versuch, die App zu konfigurieren, dass es auch auf meinem Android läuft.	
+ Ich muss noch paar Configs machen, denke ich.	
+	
+ Haha	
+ ‎Bild weggelassen	
+ Das sieht gut aus	
+" Funktioniert auch;)"	
+ Kannst du das jetzt mit dem tesseract integrieren?	
+ Um text auszulesen?	
+ Ja nach der Pause 😛	
+ Ok	
+ Geht das bei dir denn jetzt?	
+ Nee	
+ Ich schaue es nach der Pause	
+ 😉	
+ Scheißeee	
+ USB Kabel wieder nicht dabei	
+ Usb c auf usb oder ?	
+ Ja	
+ Frag mal in die Gruppe 😕	
+ Es gehhhht nicht !	
+ Wieso geht es nicht? 	
+	
+ Es läuft auf meinem Android	
+ hahahahaha	
+ Yeahhhhh	
+ Ich Weiss es nicht	
+ Es geht wenn ich das im Array mache aber nicht wenn ich das alleine lade ...	
+ Digga gehst du für mich mit zum escape room?	
+ Jo bro	
+ Ich war schon mit Sabine unterwegs.	
+	
+ Ah schade ich will auch nicht mehr	
+ Hahaha	
+ Ich komme nicht weiter 	/
+ Mit der Tesseract integration oder was?	
+ Ja	
+ Has du deine Änderungen gepusht?	
+ Jap	
+ Unter der branch new design	
+ Der Crasht beim Laden der tesseract.js	
+ Wieso hast du weiter auf dem Master branch gearbeitet? 🤦🏾‍♂	
+ Jetzt kann ich es bei mir nicht testen, weil die Android plugins auf dem Branch fehlt.	
+ Habe nicht auf Master gearbeitet	
+ Welche Android Dinger fehlen denn	
+ Du musst nur ionic Cordova build Android machen	
+ Auf welchen branch hast du deine Änderungen jetzt gepusht?	
+ Klappt ?	
+ Nee	
+ es crashed auch irgenwas bei mir	
+ Ich kann es aber nicht sehen, weil die App bei in Livereload mode nicht läuft	
+ Wegen der IP/host Unterschied	
+ Aber kannst du auch nicht in die Detail view ?	
+ Das ist das Problem ja	
+ Die détail view gehts nicht mehr lol	
+ Ja du musst tesseract auskommentieren dann geht das	
+ Meine	
+ Meinst du die ganze Service Klasse oder nur die Instanz`?	
+ Wenn du alle Sachen aus kommentierst wo du die tesseract Library benutzt dann gehts	
+ Ich weiß nhr nicht wieso	/
+ Hahaha	
+ Ja, das habe ich auch gemerkt	
+ Ich weiß nur nicht warum ...	
+ Iwas läuft ja dann bei dem Import falsch oder nicht ?	
+ Ja wahrscheinlich	
+ Hmm aber wieso hab’s wie letztes mal ganz normal über npm installiert	
+ Das verstehe ich auhc nicht	
+ npm i -S tesseract.ts tesseract.js	
+ Nur der Befehl oder auch normal tesseract ja installieren	
+ nur der Befehl	
+ und dann erneut ionic cordova... laufen lassen	
+ 👌	
+ I try	
+ yo	
+ Geht ?	
+ Nee	
+ Ich habs geschlossen. Mach später weiter. Bin müde	
+ Ich hab’s jetzt als jpg aber kann nicht weiter mit arbeiten 😅	
+ Ich kriege es nicht hin 	/
+ Hahah	
+ Oh je	
+ Versuch härter 😂😂	
+ Ohne dich abends hab ich einfach nicht die Motivation ...	/
+ Ohne mich abends?!	
+	
+ Ja ich hab mich einfach an dich gewöhnt 😅	
+ Ohhhrrr	
+ Jemand vermisst mich. ☺	
+" Ja klar ;)"	
+ Wie war dein Wochenende?	
+ Es war gut	
+ Aber richtig busy.	
+ Zu viel Party ?😅	
+ Nee	
+ Ich bin net so ein Party Mensch.	
+ Ich war in Freiburg mit meinem Bruder einen Freund besuchen.	
+ Dann bin ich noch heute zur Kirsche gegangen	
+ Wie war dein Wochenende?	
+" Bist viel rum gekommen ;)"	
+ Meine Freundin war hier 😛 war auch gut	
+ Kurze Frage hast du schonmal nen nodejs Server mit nem angular frontend verbunden ?	
+ Schönn	
+ Ja habe ich mal gemacht.	
+ Ist das schwer ?	
+ Nee	
+ Du musst nur deine Endpoints richt bereitstellen und die mit dem Angular httpClient ansprechen.	
+ Aber muss ich die dann beide auf unterschiedlichen Servern laufen lassen ?	
+ Yeah.	
+	
+ Wenn dein Angular App deinen Node backend mit dem richtigen Port des backends ansprichst, dann klappts	
+ Aber dann muss ich ja ne api beim Node einrichten oder ?	
+ Ja	
+" Das meine ich ja mit ""Endpoint"""	
+ API Schnittstellen	
+ Mies	/
+ 😂😂	
+	
+ Ja keinen Bock zwei Sachen aufzusetzen 😂	
+ Musst du des für dein Projekt machen?	
+ Also auf der Arbeit nicht fürs Projekt	
+ Ah ok	
+ Aber das ich nicht aufwendig oder so schwer	
+ Das machst du schnell	
+" Ja hoffentlich ;)"	
+ Die App geht übrigens immer noch nicht 😅	
+ Haha	
+ Ich würde mich auch gerne zeitnah mit der beschäftigen, aber meine Abende sind voll. 😂	
+ Ja besser voll als nichts zu tun 😅	
+ Der Duc hat sich den Code auch runtergezogen.	
+" Ja weiß ich ;)"	
+ Arbeitet er auch dran?	
+" Ich glaube ;)"	
+ Oder auch keine Zeit?	
+ Ich weiß nicht muss ihn mal fragen wie es bei ihm auf der Arbeit aussieht	
+ Hahaha.	
+ Bestimmt auch nicht so zufrieden ist er dort. Lol	
+ Ja er mags da ja gar nicht	
+" Schick mal trainingsplan;)"	
+ Hahaha	
+ Schick mir deine Email	
+ Robincourage90@gmail.com	
+ I am Robin Hood and I have Courage 💪🏾	
+ Haha 😂	
+ Hab dir geschickt	
+ Danke 🙏	
+ Machst du dann nur Tag 1 und 2 wenn du zweimal	
+	
+ Ne ne. Ich mach jetzt quer.	
+	
+ Wie quer ?	
+ Ist das nicht dein Plan ?	
+ Doch. Ich habs am Anfang benutzt, aber so hart gehe ich nicht mehr momentan.	
+ Ich weiß jetzt einfach I'm Kopf, was ich machen soll, wenn ich zum gym gehe. Ich habs nicht niedergeschrieben 🤷🏾‍♂	
+ Ah ok dann misch ich mir daraus was zusammen ?	
+ Die Mischung muss aber sinnvoll sein, sonst wirds dir nichts bringen.	
+ Ja ich brauch ja viel Brust und Bauch rucken reicht mir vom Bouldern	
+ Welcher Rucken? 👀	
+ Spaßti 😂	
+ 😂😂😂😂😂	
+ Es passt niemand mehr auf	
+ Es lohnt sich nicht aufzupassen	
+ Der Kerl ist Mega langweilig	
+ Ja und Nicht einmal für ne Klausur 😂	
+ Ich freu mich richtig auf Web Engineering	
+ Eben!	
+ Wir müssen uns aber richtig dumm stellen damit wir nicht nachher alles machen müssen	
+ Ja man. Wird chillig	
+ Ich mein ja vor dem Prof	
+ Oder halt langweilig 😂	
+ Wir sind eher zu spät.	
+	
+ Ach so. Ok	
+ Können ja fragen ob wir was frei machen können solange der html erklärt	
+ Das wäre richtig entspannt wenn der sagt wir können solange was raus gehen	
+ Wie ? Ich verstehe nicht was du meinst	
+ Ja dem Prof sagen wir können das und kommen dann zu den Aufgaben wieder	
+ Solange was in die Sonne oder so	
+ Hahahaha	
+ Die Agenda zu dem Kurs ist halt echt nen Witz	
+ Html, css , JavaScript und Ajax calls	
+ Ich glaube nicht, dass er damit einverstanden wäre	
+" Gucken wir dan ;)"	
+ haha. Ok	
+" Hier ist gerade deine Traumfrau ..;)"	
+ Wassss? 👀	
+ Wo ist sie?	
+ Alter die war richtig heiss	
+ Genau dein Ding sowie du sie gestern beschrieben hast 😅 großer hintern sexy lange Beine so nen Dutt aufm Kopf und dazu ein weißes Kleid 😛	
+ Hast du ihre Nummer genommen?	
+ Neee kann ja schlecht sagen ich hab da nen Kumpel 😅	
+ Doch man!	
+	
+ Und du hast nicht mal ein Foto von ihr 🤦🏾‍♂	
+ Ne aber frag mal Surush es war eine Schnitte	
+ Jetzt hab ich kein Bock mehr 😔	
+ Ja wärst du mal hier geblieben	
+ Haste mich bei sourcetree eingeladen ?	
+ Nee noch nicht	
+ Hast du ein Github Account?	
+ Ich habe es zu einem Github repo hochgeladen.	
+ Nope	
+ Mach ich mir nachher	
+ OK	
+ https	//safe-springs-76283.herokuapp.com/chat.html
+ ‎Bild weggelassen	
+ Hab mich gerade mal ans Klassen Diagramm gesetzt, ich hab soooo viel vergessen	
+ 😂😂😂	
+ Hast du die Regeln vergessen?	
+ Ne aber was nochmal ne dunkle Raute war und was ne helle	
+" Ich meine abstrakte Klassen macht man halt automatisch aber das modellieren ist was anderes ;)"	
+ Ja das stimmt.	
+ Das passiert mir auch immer.	
+ Eben	
+ Und ist Message eine abstrakte klasse von der ein shoutout erbt oder nicht	
+ Wenn man für eine Zeit nicht aktiv modelliert, vergisst man paar Dinge	
+ Jo 👌	
+ Ja könnte so gemacht werden.	
+ Ein shout-out ist ein message. Oder nicht?	
+ Ja imprinzip schon	
+ Aufjedenfall eine grosse Ähnlichkeit	
+ Du musst halt schauen, wie viele Eigenschaften ein shoutout hat, ob es sich lohnt eine Abstraktion zu machen	
+ Doch denke schon	
+ OK.	
+ Machs dann	
+ Schicke dir dann wenn’s fertig ist aber Attribute pack ich noch nicht rein	
+ Ok	
+ Digga brauche mal deine Hilfe bei ws websockets 😅	
+ Was genau dort?	
+ Hab’s geschafft 😏😁	
+ Probiere meine Arbeit mit websockets zu verknüpfen dann kann ich das schonmal für die App lernen 😅	
+ Nice	
+ Haha	
+" Beim erstmal ist es kompliziert das einzurichten ;)"	
+ Ja ist so.	
+ Softwareentwicklung halt! 😂	
+ Ja😂	
+ Also hab mal überlegt das wichtigste ist der Login glaube ich	
+ Also der User	
+ Ja, denke ich quch	
+ Aber mach erstmal das Relations diagram fertig.	
+ Ja ER diagram macht mehr Sinn letztes Mal waren wir noch bei nem Klassen Diagramm 🙈	
+ Hahaha.	
+ Hab dir mal nen bisschen was geschickt	
+ Aber so groß ist es ja nicht 😁	
+ OK bro	
+ Ich schaue mir des an ✌🏾	
+ Nice 	)
+ ‎Bild weggelassen	
+ Sieht gut aus.	
+ Ich schaue heute Abend, ob ich das Backend aufsetzen kann	
+ Nice 😁	
+ Haste Schinken geguckt ?	
+ Schon 😅	
+ Schinken? 🤣	
+ Ja habe ich.	
+	
+ Haha ja ganz entspannt 👌	
+ Hast du schon ne Tdr angefangen ? 😅	
+ Nee 😔	
+	
+ Haha ich auch	
+ So keinen Bock	
+" Nach der Arbeit muss auch mal frei sein ;)"	
+ Ja man.	
+ Richtig kacke	
+ ‎Bild weggelassen	
+ Geil ich auch 😛	
+ Hahahaha	
+" Ich habe das Backend ""Beatle city"" genannt 😂😂"	
+ Ist mir einfach so eingefallen	
+ Haha 😂😂	
+ Läuft das irgendwo?	
+ Was?	
+ Das backend?	
+ Nee	
+ Habs gerade eben aufgesetzt.	
+ Ist noch sehr frisch	
+ Ah ok aber wir können es ja auch erstmal bei hukido wie das hieß Hostern oder ?	
+ ‎Bild weggelassen	
+ Ja können wir machen.	
+	
+" Ja eben das meinte ich ;)"	
+ Sieht cool aus 👌🏾	
+" Ich glaube wir müssen mal ein klassendiagramm machen damit wir die Models klar haben ;)"	
+ Ja.	
+ Aber was braucht der User denn alles ?	
+ User besteht eigentlich nur aus Username und Passwort	
+ Status, Bild, und Interessen oder ?	
+ Also Interessen ist ein eigenes Model aber ist ja many to one	
+ Dann hat er ein Profil mit	
+	
+	
+	
+	
+	
+	
+ Ja, das Bild gehört unter Profil	
+ genau. Interesse ist ein Entität auch.	
+ Telefonnummer	
+ Muss auch darunter	
+ Ja, die Können wir direkt unter User einpacken	
+ Ich glaube, wir sollen Interesse einfach unter Profil als eine Liste von Strings packen oder?	
+ Denn es ist nicht so als Entität geeignet.	
+ Was hat den eine Interesse	
+ Im Endeffekt müssen User die ja auch selber Interessen anlegen können oder ?	
+ Nur Interessen halt d.h Strings	
+ Also Interesse hat ja eine Kategorie, einen Namen und eine id oder ?	
+ 🤔	
+	
+ Kannst du mir ein Beispiel geben, damit ich besser verstehe, wie ich es abbilden kann?	
+ Ja aber wir sagen wir dann welche Interessen ein User ausgewählt hat und wie nicht ?	
+ Ja es gibt ja Millionen von Sachen bzw. Interessen deswegen dachte ich wir machen so Kategorien wie zb Sport, wo man dann nochmal unter Auswahlen kann wenn man will	
+ Weil Sport als Interesse ist ja zu allgemein	
+ Ah ok.	
+ Das stimmt	
+ Hat Interesse eine Bezeichnung oder Kürzel?	
+ Meinst du das wäre sinnvoll ?	
+ Vllt ein Icon?	
+ Aber das Icon kann ja in der App hinterlegt sein	
+ Nee net unbedingt.	
+	
+ Das können auch später genauer überlegen	
+ Machen wir zuerstmal die Grundlegende Sachen	
+ Ja machen erstmal	
+	
+ Dann haben wir nachher auch mehr Freiheiten	
+ Ja mache ich	
+ Machst du ne sql Datenbank?	
+ Ja H2(JDBC) mit JPA persistence	
+ Sagt mir nichts 	/
+" H2 ist auch eine SQL DB und JPA (Java Persistence Annotations) ist ist sowie ein ""Entity Manager"""	
+ Ah ok ja klingt gut 👌dann muss man die ganzen queries nicht selber schreiben 😛	
+ Genau. Kann man machen bei bestimmten Komplexitäten, aber bei basic Sachen nicht	
+ Eben wir haben ja nichts so komplexes würde ich behaupten	
+ Ja, noch nicht	
+ Man kann aber auch normal noch queries schreiben zusätzlich oder ?	
+ Ja klar	
+ ‎Bild weggelassen	
+ Initial Endpoint	
+ Nice 😁	
+ Woher weißt du das ich null Sex habe ? 😅	
+ Weil ich es auf deinem Gesicht sehen kann 🤷🏾‍♂	
+ 😂😂👌	
+" Haben uns gestern nur intensiv an die mindmap gesetzt und Niki besorgt ne mindmap von einer die schon die Projektarbeit gemacht hat ;)"	
+ Ah OK. Cool	
+ Hat es viel gebracht?	
+" Ja war ganz sinnvoll kommen wir auch mal nächste Woche besprechen wenn du Lust hast ;)"	
+ Wie?	
+ Remote oder... ?	
+ Ja ich komm nicht zu dir 😂	
+ Zumindest nicht und mit dir über die Uni zu quatschen 😉	
+ Hahaha	
+ Klar	
+ Ist dass das Model vom User gewesen oder Profil ? Und Passwort brauchen wir doch nicht oder ?	
+ War von user	
+ Und der User hat nen userprofile ?	
+ Wieso brauchen wir kein passwort? Oder was meinst du?	
+ Ja machen wir doch uber die Telefon Nummer oder ?	
+ Also anmelden sms an die Nummer und gut ist ? Oder ? Wie bei WhatsApp	
+ Hmm ok	
+ Technisch versteh ich nicht so ganz, wie du meinst.	
+ Ja du verifizierst dich doch über deine Handynummer	
+ ‎Video weggelassen	
+" Also sobald ne api steht können wir mal gucken müssen nur die Models klar definieren ;)"	
+ Sieht cool aus man.	
+ Bin noch an den Schnittstellen.	
+ ‎Bild weggelassen	
+ Sieht interessant aus musst du mir mal erklären 	) Post und get und sowas sind dann die Schnittstellen oder ?
+ Ja	
+ Und das ist spring oder ?	
+ Sie erstellen ein servlet dispatcher.	
+ Kalr mache ich	
+ Ja.	
+ Ich investiere einfach Zeit und mach das Ding richtig. Nicht einfach ein Dummy code oder ähnliches	
+" Ja ist ja auch vernünftiger auf längere Sicht ;)"	
+ ‎Video weggelassen	
+ Nice man	
+ Das sieht echt cool aus	
+ Ich habe auch die Endpoints von user soweit fertig gemacht.	
+	
+ Geil!	
+ Ich mache die anderen und dann schaue ich mal, wie ich das ganze für dich online bereitstellen kann.	
+ Ja 👍 wir müssen mal gucken wie wir das genau machen mit dem Login ? Also wie authentifiziert man sich ? Mit nem Header ?	
+ Ja. Das wird der nächste Schritt sein, nachdem alle Endpoints stehen	
+ 👌	
+ Arbeitest du an dem Ding im Büro? Haha	
+" Ne bin krank geschrieben heute und morgen ;)"	
+ ICh kann sowas nicht bei und alter.	
+ Ah ok. Verstehe jetzt	
+ Wie du kannst sowas nicht ?	
+ ‎Bild weggelassen	
+ Mein Arbeitsrechner ist nur für die notwendige Arbeit hier konfiguriert. Alle anderen Proxys und Ports sind blokiert	
+" Ja ich mach das j auch auf meinem privaten ;)"	
+ Oh je.	
+	
+ Hast du das local gehostet ?	
+ Also kann man das local laufen lassen ?	
+ Mit Localhost, klar	
+ Oder wie meinst du?	
+" Sonst kannst du das auch erstmal in nem gut pushen dann kann ich das auch local schonmal mit der api testen ;)"	
+ Ja, kann ich machen	
+" Ja sobald ich nen paar backend Funktionen eingebaut hab ich mach aber erstmal die zu weiter ;)"	
+ Ist dein Code schon im git?	
+ Ne noch nicht hab überlegt sollen wir 2 gits machen für frontend und backend eins?	
+ Oder 1 git mit einem hauptordner backend und ein frontend ? Ich weiß nicht eigentlich sollte es da ja keine merge probleme geben oder ?	
+ Ja, wir können eins machen.Nee es wird kein Merge Problem geben.	
+ Gut soll ich eins machen und dich einladen ? Bitbucket ?	
+ Hmm.. Weiß, ob bitbucket am besten ist, wenn wir zukünftig CI/CD machen wollen.	
+	
+ Ja erstmal reicht es oder ?	
+ Ja	
+ ‎Video weggelassen	
+ Nice👍🏾	
+ Alles fit ?	
+ Was hast du in Statistik ?	
+ Jo	
+ Alles gut	
+ Was geht?	
+ 2.8	
+ Du?	
+ 1.7 bin echt überrascht	
+ Jo alles top 	) bin wieder mal an unserer App 🙈
+ Hab aber Probleme mit den Interessen ui😂	
+ Niceee	
+ Cool.	
+	
+ Was für Probleme hast?	
+ Hast du dir bei Apple Music mal angeguckt wie du Musik auswählen kannst?	
+ So will ich das gerne machen	
+ Aber ist halt schwierig	
+ Hattest du wieder nen Konzert ?	
+ Nee.	
+	
+ Nee. Hab ein Kumpel besucht.	
+ https	//youtu.be/ydYah_BXt9A
+ Jo	
+ Was geht?	
+ Wie läufts bei dir?	
+ Ja läuft hab auch nen bisschen weiter gebastelt 	) bei dir ?
+ Oh cool	
+ Was geht bei dir ?	
+ Bei mir läufts nicht so ganz. Ich habe alle Endpoints gemacht, aber nicht alle funktionieren mit der Persistence.	
+ Wie meinst du?	
+ Aber Arbeit lauft ?	
+ Mit dem Backend meine ich	
+ Ja aber warum gehen die nicht ?	
+ Ja Arbeit läuft.	
+	
+ Es ist ein Problem mit den mappings mit der DB. Ich muss schauen, warum genau	
+ Aber du hast nur die endpoints für die rest calls gemacht oder auch schon die websockets 🙈	
+ Nur die Endpoints.	
+ Ist es schon soweit das ich websockets machen muss?	
+ Hast du das git Repo schon angelegt?	
+ Nee ne alter das frontend ist nicht so einfach 😂	
+ Ja klar. Das weiß ich.	
+" Also wenn du Kapazitäten hast kannste gerne helfen ;)"	
+ Ja kann ich machen, wenn ich Kapazität habe.	
+	
+ Lade das Ding schonmal hoch ins Repo, dann habe ich auch Zugriff drauf.	
+ Ganz entspannt will die ui nur geil machen 😛	
+ Hahaha	
+ Bin gestern noch weit gekommen 	) Problem gifxt das schon was länger da war
+ Digga ich brauche mal deine Hilfe 🙈 muss auf der Arbeit was mit spring Boot machen aber bin zu doof das aufzusetzen 😂	
+ Jo	
+ Was für ein Problem hast du dann?	
+ Ja ich kriege es nicht zum laufen	
+ 	/
+ Ich geh von Fehler zu Fehler 	/
+ Wie kann ich helfen?	
+ Ok es läuft jetzt 👌 hast du nachher Zeit kann ich dich mal	
+	
+ Jo Sorry.	
+ Ich hatte nach der Arbeit Besuch. Konnte erst jetzt das Handy wieder in der Hand nehmen.	
+ Lass mal morgen reden	
+ Kein Ding 	)
+ Machen wir 	)
+ Lieber marven oder Gradl verwenden	
+ Marven finde ich immer besser	
+ Wo ist der Unterschied ?	
+ Hab jetzt auch Narben genommen 	)
+ Die sind alle builder. Aber die Marven Konfigurationen fallen mir einfacher als Gradle configs	
+ 🤷🏾‍♂	
+ Ok danke 	)
+ Was geht ? Haste eigentlich noch was weiter gemacht	
+ ?	
+ Joo	
+ Alles gut. Bei dir?	
+ Ja ist nur zu warm	
+	
+ Biste wieder hardcore am	
+	
+ Hahaha	
+ Ja man. Ich hatte eine zu lange Pause gemacht. Musste wieder weiter machen.	
+ Das ist doch gut.	
+	
+ Ja, aber nicht viel.	
+ Ne hier ist kein Wind und ich muss arbeiten 😂	
+ Ja ich muss mal das repo aufsetzen aber habe Probleme mit sourcetree weil ich zwei Accounts habe aber der das nicht über meinen privaten runterladen will 	/
+ Wir müssen echt dieses Repository machen und den Code hochladen, das wird uns gegenseitig motivieren, weiter zu arbeiten.	
+ Ja ist so	
+ Ich hab ja nen repo ich kann nur nichts hochladen	
+ Hab ein bisschen am Chat gebastelt	
+ Wieso? Geht's nicht oder was?	
+ Aber die dynamische Größe der Textfelder fuckt mich ab 😂	
+ Ja weil der bei Sourcetree immer über meine. Alten Unternehmens Account gehen will denn es aber nichtmehr gibt	
+ Welche?	
+ Ah ok.	
+ Ich kann auch ein Repo anlegen. 	
+	
+ ‎Video weggelassen	
+ Vielleicht klappts sorum bei dir	
+ Ja wie gesagt ich hab nen repo aber ich kann nichts pushen	
+ Ich probiere es morgen mal über das Terminal das sollte ja gehen	
+ Console für die Windows Nutzer 😅	
+ ok	
+ Kannst du mir dann eine Berechtigung geben, damit ich es auchchecke und versuche mein code hinzuzufügen?	
+ Ja warte	
+ Wie ist dein bitbucket Name ?	
+ Lass mich nachschauen. Lol	
+ username	 funkykells
+ Geht nicht deine login E-Mail?	
+ funkykells1@gmail.com	
+ Haste was ?	
+ schaue mal	
+ Jo, habe ich.	
+	
+ Hab’s Über ssh hinbekommen	
+ Schön.	
+ Jo musst nur nen Ordner machen der backend heißt ich hab in den Ordner frontend gepusht	
+ Ja genau	
+ Backend ist auch hoch	
+ Top 	)
+ Geht der User Service denn?	
+ Ja es geht	
+" Ok dann werde ich das mal ausprobieren ;)"	
+ Aber noch nicht alle Endpoints 	/
+ Was brauchen wir beim User denn für endpoints ?	
+ Abfrage von	
+	
+	
+	
+	
+	
+	
+ ✅ = funktioniert 	
+	
+ Ach das hatte ich mir fast gedacht 😂	
+ Ich habe auch schon ein gitflow erstellt und der develop branch angelegt.	
+ Schon gesehen	
+ Bereit für weiter Entwicklung	
+ Super	
+ Du hast keinen Mac oder ?	
+ Doch habe ich. Aber ich entwickle normalerweise immer auf windows.	
+ Achso ja nur wegen xamarin und iOS Entwicklung ist Mac ja notwendig	
+ Ok.	
+	
+	
+ Ja aber nicht ausführen weil ich bis jetzt nur iOS mache und der braucht ja den iOS Simulator	
+ Und Xcode	
+ Ach so. Ok	
+	
+ Mach das	
+ Sollte aber easy gehen	
+ Ok cool	
+ Geil ist wenn man nachts von ner Lösung träumt und die könnte tatsächlich funktionieren 😅	
+ Ja man. Das ist unglaublich effektiv.	
+	
+ Ja also das mit der Große der chat bubbles geht	
+ 😁	
+ Echt?	
+ Sehr schön	
+ Ja 👌 hab nur nen anderes kleines Problem	
+ Es sind immer die Sachen wo man denkt ist doch easy ist es das nicht 😂	
+ Hahaha.	
+ Dann musst noch heute von der Lösung träumen	
+" So ist es ;)"	
+ Haste schonmal	
+	
+ Ja, das kann ich mal schauen.	
+ Ist ja auch mega easy zu machen 	)
+ Kann dir auch helfen dabei	
+ Mach du des dann, wenn du es schon weißt😅	
+ Ich kenn die APIs aber nicht so gut 😅	
+ Ich machs dann	
+ Ich kann dir aber erklären wie es geht	
+ Es ist super easy	
+ Glaube sogar das swagger automatisch die apidoku bei Spring erstellen kann	
+ Ja, ich habe es schon mal gemacht. Aber das war vor etwa 2 Jahren.	
+ Ja also 😛	
+ Ich schaue es mir an	
+ Habe paar Dinge vergessen ^^	
+" Passiert ;)"	
+ Wir müssen nochmal quetschen wegen der App digga 	)
+ OK man	
+ Machen wir	
+ Mein intelij Lizenz ist abgelaufen. Kann seit Tagen nichts tun 	/
+ Kannst doch zur Not mit IntelliJ Community machen oder ? Ist doch Java das ist doch in der Community Edition drin	
+ Ok hab’s mir mal	
+	
+ Aber xamarin bietet sharpi das ist nen Tool swiftplugins einfach zu integrieren also sollte recht einfach gehen 	)
+ OK. Das ist doch cool.	
+ Mega	
+ Ich hoffe du singst und programmierst da unten mit deinen fingerchen 😂 	
+	
+	
+ 😂😂😂😂😂😂	
+ Kannst dir gut vorstellen. Hahaha	
+ Danke bro. 🙌🏾	
+ Ich verzweifle noch an diesen Plugins 😅🙈	
+ ‎Bild weggelassen	
+ Joooooo	
+ Das sieht cool aus hahaha	
+ Schaffst du es so zu machen?	
+ Ne sowas suche ich ja als Plugin	
+ Haste was gepusht?	
+ Jo Robin	
+ Ich habe was gepusht.	
+	
+ Ah nice 😁	
+ Gestern noch mit nem Kollegen geredet der sich mit ner App selbständig gemacht hat war ganz interessant	
+ Wie laufts bei dir so?	
+ Cool	
+ Ist er Immer noch selbständig?	
+ Ja er hat jetzt zwei Apps	
+ Net viel. Nur die übliche Sachen	 Arbeiten und leben 😂😂
+ Eine kleine Shopping App die lokale Kleingewerbe aufnimmt und dann eine App die ein Unternehmen in einen Baum runter bricht und wo du einzelne Punkte verändern kannst und dann die Auswirkungen sehen kannst	
+ Nichts mehr von der Uni gehört ?	
+ Oh cool	
+ Ne nicht direkt von der Uni. Ich habe aber mit meinem Betreuer wegen der Projektarbeit geschrieben und habe ihn zum Unternehmen eingeladen.	
+ Immerhin wann kommt er ?	
+ Am 22.10	
+ Immerhin	
+ Und? Wie siehts bei dir aus?	
+ Noch was für die Uni gemacht?	
+ Hatte Urlaub also nein 😅 fange heute mal mit der Projektspezifikation an	
+ Musste mir ja erstmal selber mein Projekt ausdenken 😅	
+ Ah OK.	
+ Ist es dir jetzt klar, was dein Projekt ist?	
+ Ja hab mir selber eins ausgedacht 😂 und mein Chef hat in gesagt	
+ Oh cool	
+ Warum geht's dann?	
+ Auch iot	
+ Die sap stellt einen Basis Service zur Verfügung um Sensoren zu onborden der ist aber mega komplex, weshalb ich eine application schreibe die dem User selber ermöglicht uber eine App seinen Sensor einzurichten	
+ Klingt interessant 👌🏾	
+	
+ Denke auch hatte zwar gehofft was im sap Health berechtigt zu bekommen aber ok so	
+ Was ist sap Health?	
+ Ich würde auch gerne so ein Projekt machen, aber mein Unternehmen ist nicht so eins, ow man mit diversen Technologien spielen kann. 	/
+	
+	
+	
+ Ja vor allem dann die Master Arbeit darüber zu schreiben ist richtig doof 	/
+ Ja sap im Health Sektor also machinelearning auf Gesundheitsdaten anwenden	
+ Ah ok	
+ Ja man. Das ist gar nicht geil.	
+ Kannst du nichts anderes machen dir iwas cooles ausdenken ?	
+ Alter. Das Unternehmen ist weder ein Software Haus noch ein IT Berater. 	
+	
+	
+ Ach krass ... mega mies	
+ Ja man.	
+ Aber naja.	
+	
+	
+" Ja glaube ich da muss unsere App aber dann fertig sein ;)"	
+ JA, das können wir schon realisieren	
+" Eben ;)"	
+" Und vllt gefällt es ja ein paar Leuten ;)"	
+ Ja man. Das ist der Traum.	
+ Ja eben	
+ Ich brauch mal deine springboot skills 🙈😅 wenn du Zeit hast	
+ Haha	
+ Was brauchst du denn?	
+ Ach so allgemein ich will ne springboot Anwendung schreiben und ich brauch ne Rest api und muss auch damit Rest apis ansprechen und dachte du kannst mir allgemein mal so ne kleine introduction geben	
+ Ok	
+ Kannst dich ja am Abend melden	
+ Ja bin noch beim Sport gleich, ich schreib dir nachher mal vllt hast du Zeit	
+ Danke schonmal😁👍	
+ OK gerne	
+ Keine Arbeit heut?	
+ Doch klar	
+ Aber mache Dienstag immer früher Schluss furs Bouldern 😛	
+ Also noch bis 15 Uhr Arbeit	
+ OK cool	
+ War gestern doch zu Spar	
+ Bist du arbeiten oder hast du Urlaub im Moment	
+ Ich habe kein Urlaub mehr in dem Jahr	
+ Shit😅 ist ja auch nichtmehr so lang	
+ Gehst du heute Abend mit raus ?	
+ Nee	
+ Muss eine Bekannte besuchen gehen	
+ Du musst ? 😂	
