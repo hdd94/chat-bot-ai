@@ -6,7 +6,6 @@ let fs = require("fs");
 let mongo = require('mongodb');
 let moment = require('moment');
 
-
 var textAnimals = fs.readFileSync("./animals.txt").toString('utf-8');
 let textArrayAnimals = textAnimals.split("\n");
 
