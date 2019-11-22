@@ -17,6 +17,7 @@ var textColorsHex = fs.readFileSync("./colors-hex.txt").toString('utf-8');
 let textArrayColorsHex = textColorsHex.split("\n");
 
 var options = {
+    path: "virtualenv/lib/python3.7",
     scriptPath: 'Python/',
 }
 const path = './db.sqlite3';
@@ -27,7 +28,7 @@ if (!fs.existsSync(path))
         if (err) throw err;
         console.log(results);
     });
-    
+
 // Socket Stuff
 io.on('connection', (socket) => {
 
@@ -58,6 +59,7 @@ io.on('connection', (socket) => {
 
     socket.on('send-message', (message) => {
         var options = {
+            path: "virtualenv/lib/python3.7",
             scriptPath: 'Python/',
             args: [message.text]
         }
@@ -66,7 +68,7 @@ io.on('connection', (socket) => {
         python.run('chat.py', options, function (err, results) {
             if (err) throw err;
             console.log(results[0]);
-            io.emit('message', {msg: results[0], user: "Robotini", color: "#FFFFFF", createdAt: new Date()});
+            io.emit('message', { msg: results[0], user: "Robotini", color: "#FFFFFF", createdAt: new Date() });
         });
     });
 });
