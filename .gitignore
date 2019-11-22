@@ -1,10 +1,10 @@
-.idea/
+.idea
 *.iml
 *.iws
 *.eml
-out/
+out
 .DS_Store
 .svn
 .log
-node_modules/
+node_modules
 .sass-cache
