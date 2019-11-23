@@ -26,7 +26,7 @@ console.log("Learning DB exists: " + fs.existsSync(path))
 if (!fs.existsSync(path))
     try {
         python.run('init.py', options, function (err, results) {
-            if (err) throw err;
+            console.log(err);
             console.log(results);
         });
     }
@@ -71,7 +71,7 @@ io.on('connection', (socket) => {
         io.emit('message', { msg: message.text, user: message.user, color: message.color, createdAt: new Date() });
         try {
             python.run('chat.py', options, function (err, results) {
-                if (err) throw err;
+                console.log(err);
                 console.log(results[0]);
                 io.emit('message', { msg: results[0], user: "Dark Robotini", color: "#56e3ff", createdAt: new Date() });
             });
