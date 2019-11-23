@@ -1,7 +1,8 @@
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 import os
-
+import nltk
+nltk.download()
 bot = ChatBot('Test')
 
 def init():

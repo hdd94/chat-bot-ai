@@ -68,7 +68,7 @@ io.on('connection', (socket) => {
         python.run('chat.py', options, function(err, results) {
             if (err) throw err;
             console.log(results[0]);
-            io.emit('message', { msg: results[0], user: "Robotini", color: "#FFFFFF", createdAt: new Date() });
+            io.emit('message', { msg: results[0], user: "Dark Robotini", color: "#56e3ff", createdAt: new Date() });
         });
     });
 });
