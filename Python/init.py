@@ -1,9 +1,9 @@
-import nltk
 import sys
 sys.path.append("virtualenv/lib/python3.7/site-packages")
+import os
+import nltk
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-import os
 nltk.download()
 
 bot = ChatBot('Test')
