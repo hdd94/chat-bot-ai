@@ -17,22 +17,22 @@ var textColorsHex = fs.readFileSync("./colors-hex.txt").toString('utf-8');
 let textArrayColorsHex = textColorsHex.split("\n");
 
 var options = {
-    path: "virtualenv/lib/python3.7",
+    path: "virtualenv/lib/python3.7/site-packages",
     scriptPath: 'Python/',
 }
 const path = './db.sqlite3';
 
-// console.log("Learning DB exists: " + fs.existsSync(path))
-// if (!fs.existsSync(path))
-//     try {
-//         python.run('init.py', options, function (err, results) {
-//             console.log(err);
-//             console.log(results);
-//         });
-//     }
-//     catch (err) {
-//         console.log(err);
-//     }
+console.log("Learning DB exists: " + fs.existsSync(path))
+if (!fs.existsSync(path))
+    try {
+        python.run('init.py', options, function (err, results) {
+            console.log(err);
+            console.log(results);
+        });
+    }
+    catch (err) {
+        console.log(err);
+    }
 // Socket Stuff
 io.on('connection', (socket) => {
 
@@ -62,22 +62,22 @@ io.on('connection', (socket) => {
     });
 
     socket.on('send-message', (message) => {
-        // var options = {
-        //     path: "virtualenv/lib/python3.7",
-        //     scriptPath: 'Python/',
-        //     args: [message.text]
-        // }
-        // console.log(socket.username + ": " + message.text);
+        var options = {
+            path: "virtualenv/lib/python3.7/site-packages",
+            scriptPath: 'Python/',
+            args: [message.text]
+        }
+        console.log(socket.username + ": " + message.text);
         io.emit('message', { msg: message.text, user: message.user, color: message.color, createdAt: new Date() });
-        // try {
-        //     python.run('chat.py', options, function (err, results) {
-        //         console.log(err);
-        //         console.log(results[0]);
-        //         io.emit('message', { msg: results[0], user: "Dark Robotini", color: "#56e3ff", createdAt: new Date() });
-        //     });
-        // } catch (err) {
-        //     console.log(err);
-        // }
+        try {
+            python.run('chat.py', options, function (err, results) {
+                console.log(err);
+                console.log(results[0]);
+                io.emit('message', { msg: results[0], user: "Dark Robotini", color: "#56e3ff", createdAt: new Date() });
+            });
+        } catch (err) {
+            console.log(err);
+        }
     });
 });
 
