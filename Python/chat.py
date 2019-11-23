@@ -1,9 +1,9 @@
-from chatterbot.trainers import ListTrainer
-from chatterbot import ChatBot
 import os
 import sys
-sys.prefix = "virtualenv/lib/python3.7"
-sys.exec_prefix = "virtualenv/lib/python3.7"
+sys.path.append("virtualenv/lib/python3.7/site-packages")
+from chatterbot.trainers import ListTrainer
+from chatterbot import ChatBot
+
 bot = ChatBot('Test')
 
 
